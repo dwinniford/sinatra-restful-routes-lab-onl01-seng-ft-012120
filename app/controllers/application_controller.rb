@@ -35,5 +35,7 @@ class ApplicationController < Sinatra::Base
     @recipe.delete
     redirect '/recipes'
   end 
+  
+  patch 
 
 end
